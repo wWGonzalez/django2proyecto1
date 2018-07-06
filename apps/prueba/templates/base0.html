@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <body>
+        <div>
+        Hola Bienvenidos a mi pagina
+        <a href="{% url 'home' %}" >Principal</a>
+        <a href="{% url 'otro' %}" >Otra Pagina</a>
+            {% block contenido %} {% endblock %}
+    </div>
+
+        
+
+    </body>
+
+    
+</html>
